@@ -113,6 +113,10 @@ ACAKADUTZ v1
 Initial public release
 ```
 
+# Screenshot
+
+![ACAKADUTZ UI](assets/screenshot-ui.png)
+
 ---
 
 # Disclaimer

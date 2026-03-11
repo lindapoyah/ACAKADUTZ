@@ -1,149 +1,136 @@
-# ACAKADUTZ (Alpha)
-
+# ACAKADUTZ v1  
 Random Video Shuffle Combiner
 
-ACAKADUTZ is a small experimental desktop tool that randomly combines multiple short videos into a single long video.
+ACAKADUTZ is a simple Windows desktop tool designed to randomly combine multiple short video clips into a single long video automatically.
 
-This project started as a simple personal tool to solve a workflow problem: combining many short narration videos into longer videos without manually arranging them in video editing software.
+The tool was created to solve a common problem: combining many narration clips into long videos without manually editing them in a video editor.
 
-This **Alpha version** is the earliest prototype and was mainly built for personal use.
+Instead of arranging clips one by one, ACAKADUTZ randomly selects and merges clips for you, creating a unique result every time.
 
 ---
 
-# What This Tool Does
+# Background
 
-ACAKADUTZ takes a collection of short video clips and randomly merges them into a single longer video.
+This software was originally created out of necessity.
 
-Every render produces a different result because the order of the clips is shuffled randomly.
+I often work with many short narration videos (typically 10–15 minutes each). I wanted a way to combine them into longer videos automatically while keeping the order randomized so every output video is different.
 
-Example workflow:
+After searching for a suitable tool and not finding one that fit my workflow, I decided to build a simple application myself.
 
-You have:
+Alhamdulillah, the result turned out to be very useful.
 
-30 short narration videos  
+---
+
+# Example Use Case
+
+Suppose you have:
+
+```
+30 short narration videos
 Each video: 10–15 minutes
+```
 
-Using ACAKADUTZ you can randomly combine:
+Using ACAKADUTZ you can:
 
-4–5 clips
+1. Randomly select 4–5 videos
+2. Merge them automatically
+3. Produce a ~1 hour video
 
-to create a video around:
+Because the order is randomized, every render produces a different combination.
 
-~1 hour long
-
-Since the order is random, each output video will be different.
+This means that from just 30 clips you can generate many different long-form videos without manually editing them.
 
 ---
 
-# Why This Tool Exists
+# Key Features
 
-Manually combining many clips in video editing software can be repetitive and time consuming.
-
-This tool automates that process by randomly selecting and merging clips.
-
-It was originally built to speed up the production of long-form narration content.
-
----
-
-# Alpha Version Notes
-
-This version is an **early prototype**.
-
-Limitations may include:
-
-• minimal user interface  
-• limited error handling  
-• basic rendering workflow  
-• experimental performance  
-
-Future versions may include improvements and new features.
+- Random video selection
+- Automatic video merging
+- Different output every render
+- Simple interface
+- Portable Windows application
+- No complicated setup required
 
 ---
 
-# Requirements
+# Why Use ACAKADUTZ?
 
-This tool requires:
+Manually merging videos in editing software can be slow and repetitive.
 
-Python 3.8 or newer
+ACAKADUTZ automates the process so you can:
 
-FFmpeg installed and available in PATH.
+- generate long videos quickly
+- create many unique combinations
+- save time from manual editing
 
-Download FFmpeg:
+This can be especially useful for:
 
-https://ffmpeg.org/download.html
-
-Verify installation:
-
-```
-ffmpeg -version
-```
-
----
-
-# Installation
-
-Clone the repository:
-
-```
-git clone https://github.com/yourusername/ACAKADUTZ.git
-```
-
-Enter the project directory:
-
-```
-cd ACAKADUTZ
-```
-
-Install dependencies:
-
-```
-pip install -r requirements.txt
-```
-
-Run the application:
-
-```
-python app.py
-```
+- narration content
+- storytelling videos
+- long-form compilations
+- experimental video workflows
 
 ---
 
-# Basic Usage
+# System Requirements
 
-1. Select the folder containing video clips
-2. Choose how many clips should be combined
-3. Start the render process
-4. The tool will randomly shuffle and merge clips
+Operating System
 
-Each render produces a different video.
+```
+Windows
+```
+
+No installation required.
+
+Simply download and run the executable.
+
+---
+
+# How To Use
+
+1. Prepare a folder containing your short video clips
+2. Open ACAKADUTZ
+3. Select the folder containing the videos
+4. Choose how many clips to combine
+5. Start rendering
+
+The software will randomly pick videos and merge them into a single output video.
+
+---
+
+# Notes
+
+Each render will produce a different order of clips due to the random shuffle process.
+
+This allows a large number of possible combinations even from a relatively small set of videos.
 
 ---
 
 # Version
 
 ```
-ACAKADUTZ Alpha
-Initial experimental build
+ACAKADUTZ v1
+Initial public release
 ```
-
-# Screenshot
-
-![ACAKADUTZ UI](assets/screenshot-ui.png)
 
 ---
 
 # Disclaimer
 
-This software is provided as an experimental tool.
+This software is provided as-is and may still have limitations or areas for improvement.
 
-It may contain bugs or unfinished features.
-
-Use at your own risk.
+Feedback and suggestions are welcome.
 
 ---
 
 # Author
 
-Created as a personal utility tool to simplify long-form video creation from short narration clips.
+Created to solve a real workflow problem in generating long-form narration videos.
 
-If you find this tool useful, feel free to share it with others.
+If you find this tool helpful, feel free to share it with others who might benefit from it.
+
+---
+
+# Download
+
+https://bit.ly/ACAKADUTZv1

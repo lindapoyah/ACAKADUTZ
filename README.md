@@ -126,6 +126,10 @@ ACAKADUTZ Alpha
 Initial experimental build
 ```
 
+# Screenshot
+
+![ACAKADUTZ UI](assets/screenshot-ui.png)
+
 ---
 
 # Disclaimer
